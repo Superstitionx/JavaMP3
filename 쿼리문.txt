@@ -1,0 +1,58 @@
+create table memberlist (
+ member_id number primary key
+, id varchar2(30) not null
+, password varchar2(30) not null
+, name varchar2(30) not null
+, birth varchar2(30) not null
+)
+
+create table playlist (
+playlist_id number primary key
+, member_id number not null
+, songdb_id number not null
+)
+
+create table songdb (
+songdb_id number primary key
+, songname varchar2(100)
+, singer varchar2(100)
+, filepath varchar2(500)
+)
+
+create table notice (
+board_id number primary key
+, member_id varchar2(30) not null
+, subject varchar2(100)
+, contents varchar2(200)
+, num number
+, time varchar2(40)
+, no number
+)
+
+create table memo (
+memo_id number primary key
+, member_id varchar2(30) not null
+, board_id number not null
+, contents varchar2(100)
+, no number
+)
+
+create sequence member_seq
+increment by 1
+start with 1
+
+create sequence playlist_seq
+increment by 1
+start with 1
+
+create sequence songdb_seq
+increment by 1
+start with 1
+
+create sequence seq_notice
+increment by 1
+start with 1
+
+create sequence seq_memo
+increment by 1
+start with 1
