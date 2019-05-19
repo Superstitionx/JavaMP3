@@ -56,4 +56,3 @@
 > ● Java Swing AWT의 Progressbar Component를 이용하여 시간의 흐름을 구현</br>
 > ● MouseClickListener와 File I/O의 기능을 이용하여 MouseClick 지점을 계산하고 그 지점부터 재생하는 기능 구현</br>
 > ● Thread를 이용하여 Progressbar의 진행 흐름을 구현</br>
-> ● 
