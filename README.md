@@ -34,5 +34,26 @@
 > ● Select문을 이용하여 아이디 및 비밀번호 찾기 기능 구현 </br>
 ## ○ 플레이어 기능
 ### ○ 재생
+<img src="https://postfiles.pstatic.net/MjAxOTA1MTlfMTcz/MDAxNTU4MjY0MTk0OTA3.k5mJE1K9zFDlun8-NjTL1pPOok4t82zJHPoLV8cCOd4g.mDuakPNEgFXUJvyE3-wmecv6Y2DUdMhedTc3imlfRfcg.PNG.jsh2583/%EC%9E%AC%EC%83%9D.png?type=w773"/>
+
+> ● Jlayer의 Player Package와 Thread를 이용하여 재생 기능 구현 </br>
+> ● File I/O를 이용하여 노래 파일를 불러오는 기능 구현 </br>
 ### ○ 정지 및 다시 재생
+<img src="https://postfiles.pstatic.net/MjAxOTA1MTlfMjUg/MDAxNTU4MjY0MjI0MDkw.0VHYQPJMHoL6WlLHq6OKBrIoAc5U-WSlDC9x6dXJdpAg.Z_y9quWzgbapl3Smx2BoTRjZafjWL704Hiy4XN4Yassg.PNG.jsh2583/%EC%9E%AC%EC%83%9D%EC%A0%95%EC%A7%80.png?type=w773"/>
+<img src="https://postfiles.pstatic.net/MjAxOTA1MTlfNjQg/MDAxNTU4MjY0MjQxMjc3.kg9g9fYQHMH6zCpmwmStJnXuA6w0z1L8Om2VBU_SZvog.KVG_Bzr9D6oDD3pbCOwhaGWzD9zaf5Q371DcjQcd6kkg.PNG.jsh2583/%EC%A0%95%EC%A7%80%EC%9E%AC%EC%83%9D.png?type=w773"/>
+
+> ● File I/O를 이용하여 노래가 정지된 지점을 기억하고 그 부분부터 다시 재생하는 기능 구현</br>
+### ○ 이전/다음 곡 재생
+<img src="https://postfiles.pstatic.net/MjAxOTA1MTlfMTQy/MDAxNTU4MjY3NDUzMDI2.7JPAll6VDrwRRvKl-PeZP3vR5_fzN6HhS-uVUN6f7qYg.ML9lXI64qhmFxN7e5kRCgI2VK9SsyqlqRnNVnkR-8Zkg.PNG.jsh2583/%EB%8B%A4%EC%9D%8C%EC%9D%B4%EC%A0%84.png?type=w773"/>
+
+> ● Java Swing AWT의 Table Component의 row값을 이용하여 구현</br>
+> ● Math클래스의 random함수를 이용하여 Random기능 구현</br>
 ### ○ Progressbar
+<img src="https://postfiles.pstatic.net/MjAxOTA1MTlfMTI5/MDAxNTU4MjY0Mjg0NzEw.cF2TEbFw_ZGc9kDReVSO0gAc4IX3UQCki64WBROsafUg.foWWn9lofjvnhCNFj3PnChwpCX_nLz6CbOgdbwWMC7cg.PNG.jsh2583/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8A%A4%EB%B0%94-progressbarthread.png?type=w773"/>
+<img src="https://postfiles.pstatic.net/MjAxOTA1MTlfMjQ1/MDAxNTU4MjY0MzA5MTI1.sDn_U8rnZ0IgrC6MSFBaFq6gSsXJlrJH5mNw6wq0dNcg.D7jMBWuNfvMQazgbkhZZQN-oUwLakcWOGtjDpXRgPqYg.PNG.jsh2583/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8A%A4%EB%B0%94-songthread.png?type=w773"/>
+<img src="https://postfiles.pstatic.net/MjAxOTA1MTlfNzMg/MDAxNTU4MjY0MzQ4ODY5.UpMoxfvaDMKdoMG7ES_u4YMl0TNgfKDtASJPv-tYdBYg.s-OBZnOq2Go2Y3iStHIzz_64tTo8o-2yXiI-n70Bqhgg.PNG.jsh2583/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8A%A4%EB%B0%94-mouseclick.png?type=w773"/>
+
+> ● Java Swing AWT의 Progressbar Component를 이용하여 시간의 흐름을 구현</br>
+> ● MouseClickListener와 File I/O의 기능을 이용하여 MouseClick 지점을 계산하고 그 지점부터 재생하는 기능 구현</br>
+> ● Thread를 이용하여 Progressbar의 진행 흐름을 구현</br>
+> ● 
